@@ -6,6 +6,7 @@ public class App{
     private static String getString(String prompt){
         System.out.println(prompt);
         String inputString = inputScanner.nextLine();
+
         return inputString;
     }
     private static double getDouble(String prompt){
